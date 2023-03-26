@@ -1,0 +1,39 @@
+.mainPolicy {
+  height: 75px;
+  width: 100%;
+  background-color: #111;
+}
+
+.mainPolicy > article {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+  color: white;
+}
+.right {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right div a {
+  font-size: 13px;
+  font-weight: bolder;
+  color: white;
+}
+
+.right div a:hover {
+  font-size: 13px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+  .topNav {
+    background-color: #ed7501;
+    height: 35px;
+  }
+  .topNav article {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+  }
+
+  .mail {
+    display: flex;
+    padding: 10px 10px 10px 15px;
+    gap: 10px;
+
+    flex-basis: 50%;
+  }
+  .mail1 {
+    font-weight: 500;
+  }
+  .mail1 a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(44, 42, 42);
+  }
+  .mail1 .env {
+    height: 70px;
+    width: 40px;
+  }
+  .Icon {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 10px;
+  }
+  .Icon ul {
+    display: flex;
+    gap: 12px;
+  }
+  .Icon ul li {
+    list-style: none;
+  }
+  .Icon ul li a {
+    color: rgb(33, 27, 27);
+    font-size: 15.5px;
+  }

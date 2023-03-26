@@ -1,0 +1,232 @@
+.NavBar {
+  background-color: white;
+  height: 80px;
+}
+
+.NavBar article {
+  margin: 0 auto;
+  width: 92.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+.logo {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.logo img {
+  height: 70px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  padding: 10px 15px 10px 0px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 3px 16.5px;
+  border-radius: 5px;
+}
+.menu ul li .anchor {
+  text-decoration: none;
+  color: rgb(85, 84, 84);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.menu ul li .anchor::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: relative;
+  background-color: orange;
+  top: 10px;
+  display: block;
+  opacity: 0;
+}
+.menu ul li .anchor:hover {
+  box-shadow: 1px 1px 10px gray;
+}
+
+.menu ul li .anchor:hover::after {
+  background-color: orange;
+  opacity: 1;
+}
+.drop1 {
+  width: 240px;
+  height: 200px;
+  /* background-color: aqua; */
+  position: absolute;
+  left: 706px;
+  top: 95px;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 0px 0px 1px rgb(88, 86, 86);
+  border: 1px solid rgb(244, 242, 242);
+}
+.service:hover + .drop1 {
+  background-color: rgb(253, 253, 249);
+  display: block;
+}
+.drop1:hover {
+  left: 706px;
+  top: 95px;
+  display: block;
+  background-color: white;
+}
+.drop1 .dropx {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 15px;
+}
+.drop1 .dropx li {
+  list-style: none;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.drop1 .dropx li a {
+  text-decoration: none;
+  color: rgb(32, 29, 29);
+  font-weight: 520;
+}
+.drop1 .dropx li a:hover {
+  color: rgb(242, 143, 6);
+}
+
+.drop2 {
+  width: 240px;
+  height: 50px;
+  /* background-color: aqua; */
+  position: absolute;
+  left: 823px;
+  top: 96px;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 0px 0px 1px rgb(88, 86, 86);
+  padding: 15px 10px;
+  border: 1px solid rgb(244, 242, 242);
+}
+.product:hover .drop2 {
+  background-color: rgb(253, 253, 249);
+  display: block;
+}
+.drop2:hover {
+  display: flex;
+  align-items: center;
+  left: 823px;
+  top: 96px;
+  display: block;
+  background-color: white;
+}
+.drop2 a {
+  text-decoration: none;
+  color: rgb(32, 29, 29);
+  font-weight: 520;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.drop2 a:hover {
+  color: rgb(242, 143, 6);
+}
+
+.drop3 {
+  width: 240px;
+  height: 340px;
+
+  position: absolute;
+  left: 937px;
+  top: 95px;
+  border-radius: 5px;
+  display: none;
+  border: 1px solid rgb(244, 242, 242);
+
+  box-shadow: 0px 0px 1px rgb(88, 86, 86);
+}
+
+.industries:hover .drop3 {
+  background-color: rgb(253, 253, 249);
+  display: block;
+}
+
+.drop3:hover {
+  left: 937px;
+  top: 95px;
+  display: block;
+  background-color: white;
+}
+
+.drop3 .dropy {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 15px;
+}
+.drop3 .dropy li {
+  list-style: none;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.drop3 .dropy li a {
+  text-decoration: none;
+  color: rgb(32, 29, 29);
+  font-weight: 520;
+}
+.drop3 .dropy li a:hover {
+  color: rgb(242, 143, 6);
+}
+
+.drop4 {
+  width: 240px;
+  height: 206px;
+
+  position: absolute;
+  left: 980px;
+  top: 95px;
+  border-radius: 5px;
+  display: none;
+  border: 1px solid rgb(244, 242, 242);
+
+  box-shadow: 0px 0px 1px rgb(88, 86, 86);
+}
+
+.about:hover + .drop4 {
+  background-color: rgb(253, 253, 249);
+  display: block;
+}
+
+.drop4:hover {
+  left: 980px;
+  top: 95px;
+  display: block;
+  background-color: white;
+}
+
+.drop4 .dropz {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 15px;
+}
+.drop4.dropz li {
+  list-style: none;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.drop4 .dropz li a {
+  text-decoration: none;
+  color: rgb(32, 29, 29);
+  font-weight: 520;
+}
+.drop4 .dropz li a:hover {
+  color: rgb(242, 143, 6);
+}

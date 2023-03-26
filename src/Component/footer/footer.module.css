@@ -1,0 +1,149 @@
+.footer {
+  height: 400px;
+  background-color: #efefef;
+}
+
+.footer article {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  height: inherit;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+
+  flex-basis: 25%;
+}
+.Industries {
+  flex-basis: 25%;
+}
+.connect {
+  flex-basis: 25%;
+}
+
+.mainContainer {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.mainContainer .Home {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 15px;
+}
+.mainContainer .Home h4 {
+  padding-left: 5px;
+}
+.mainContainer .Home ul {
+  list-style: none;
+}
+.mainContainer .Home ul li {
+  margin: 10px 0 0 5px;
+}
+.mainContainer .Home ul li a {
+  text-decoration: none;
+  color: rgb(16, 13, 13);
+}
+.mainContainer .Home ul li a:hover {
+  color: gray;
+}
+
+.mainContainer .Services {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 15px;
+}
+.mainContainer .Services h4 {
+  padding-left: 5px;
+}
+.mainContainer .Services ul {
+  list-style: none;
+}
+.mainContainer .Services ul li {
+  margin: 10px 0 0 5px;
+}
+.mainContainer .Services ul li a {
+  text-decoration: none;
+  color: rgb(16, 13, 13);
+}
+.mainContainer .Services ul li a:hover {
+  color: gray;
+}
+
+.Industries {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 15px;
+}
+.Industries h4 {
+  padding-left: 5px;
+}
+.Industries ul {
+  list-style: none;
+}
+.Industries ul li {
+  margin: 10px 0 0 5px;
+}
+.Industries ul li a {
+  text-decoration: none;
+  color: rgb(16, 13, 13);
+}
+.Industries ul li a:hover {
+  color: gray;
+}
+
+.connect {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px 0px 10px 22px;
+  gap: 25px;
+}
+.connect .icons ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+.connect .icons ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  outline: none;
+  border: 1px solid black;
+}
+
+.connect .icons ul li a {
+  font-size: 20px;
+  border-radius: 100%;
+  color: black;
+}
+.connect .icons ul li a:hover {
+  color: gray;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contact .hello {
+  margin-right: 10px;
+  /* font-size: 17px; */
+  color: black;
+}

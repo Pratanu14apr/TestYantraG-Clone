@@ -1,0 +1,33 @@
+.video {
+  height: 510px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  /* margin: 10px; */
+  gap: 10px;
+}
+.video1 {
+  flex-basis: 50%;
+  /* background-color: rgb(161, 161, 117); */
+  height: 480px;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.video2 {
+  flex-basis: 50%;
+  height: 480px;
+}
+.video3 {
+  height: 342px;
+  width: 600px;
+  margin-left: 50px;
+}
+.img2 {
+  position: relative;
+  top: 9px;
+}
